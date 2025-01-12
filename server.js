@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const OPENAI_API_KEY = "your_openai_api_key";
+const OPENAI_API_KEY = "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";
 
 app.post("/api/generate", async (req, res) => {
   const { prompt } = req.body;
